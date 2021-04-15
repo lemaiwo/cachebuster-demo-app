@@ -3,6 +3,10 @@ metadata:
   name: 'cachebuster-demo-app'
 type: application
 ui5Theme: sap_fiori_3
+builder:
+  customTasks:
+  - name: ui5-task-cachebuster-indexing
+    afterTask: generateCachebusterInfo
 server:
   customMiddleware:
   - name: fiori-tools-proxy
