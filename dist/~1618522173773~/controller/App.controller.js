@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("be.wl.cachebusterdemoapp.controller.App",{onInit:function(){}})});
